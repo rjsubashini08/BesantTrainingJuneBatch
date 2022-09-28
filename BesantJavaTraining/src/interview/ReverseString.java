@@ -5,7 +5,7 @@ public class ReverseString {
 	public String reverse(String st)
 	{
 		String[] split=st.split(" ");
-		Strin rev="";
+		String rev="";
 //		String rev1=null;
 		for(int i=split.length-1;i>=0;i--)
 		{

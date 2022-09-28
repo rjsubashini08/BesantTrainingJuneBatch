@@ -1,11 +1,14 @@
 package constructorDemo;
 class BooksExample
 {
+	//instance Variable->this
 	String title;
 	String author;
 	int numberOfPages;
 	String ISBN;
-	
+	//Constructor
+	//methods className and methodName are same
+	//No return type for constructor
 	public BooksExample(String tit,String auth,int nop)
 	{
 		this.title=tit;
@@ -33,7 +36,7 @@ public class BooksExampleConstructor {
 		System.out.println("Title of the Books "+be1.title);
 		System.out.println("Author of the Books "+be1.author);
 		System.out.println("NumberOfPages of the Books "+be1.numberOfPages);
-		System.out.println("ISBNL "+be1.ISBN);
+		System.out.println("ISBN "+be1.ISBN);
 
 	}
 

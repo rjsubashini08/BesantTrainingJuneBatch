@@ -38,6 +38,10 @@ In Java, an object is created using the keyword "new".
 	int numberOfPages;
 }
 public class ExampleBooks {
+	
+	//class-variable+methods
+	//methods-perform some action
+	//object-entity of class-className ObjectName=new ClassName();
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

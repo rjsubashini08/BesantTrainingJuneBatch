@@ -4,6 +4,7 @@ public class Add {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//23 143=166
 		if (args.length != 2) {
 			System.out.println("Error");
 			System.exit(0);
